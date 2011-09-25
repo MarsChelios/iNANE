@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7F8BC59142F8039006EC379 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7F8BC58142F8039006EC379 /* UIKit.framework */; };
+		B7F8BC5B142F8039006EC379 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7F8BC5A142F8039006EC379 /* Foundation.framework */; };
+		B7F8BC5D142F8039006EC379 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7F8BC5C142F8039006EC379 /* CoreGraphics.framework */; };
+		B7F8BC63142F8039006EC379 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7F8BC61142F8039006EC379 /* InfoPlist.strings */; };
+		B7F8BC66142F8039006EC379 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F8BC65142F8039006EC379 /* main.m */; };
+		B7F8BC69142F8039006EC379 /* iNANEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F8BC68142F8039006EC379 /* iNANEAppDelegate.m */; };
+		B7F8BC6C142F8039006EC379 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7F8BC6A142F8039006EC379 /* MainWindow.xib */; };
+		B7F8BC6F142F8039006EC379 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F8BC6E142F8039006EC379 /* FirstViewController.m */; };
+		B7F8BC72142F8039006EC379 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F8BC71142F8039006EC379 /* SecondViewController.m */; };
+		B7F8BC75142F8039006EC379 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7F8BC73142F8039006EC379 /* FirstView.xib */; };
+		B7F8BC78142F8039006EC379 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7F8BC76142F8039006EC379 /* SecondView.xib */; };
+		B7F8BC7F142F8039006EC379 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7F8BC58142F8039006EC379 /* UIKit.framework */; };
+		B7F8BC80142F8039006EC379 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7F8BC5A142F8039006EC379 /* Foundation.framework */; };
+		B7F8BC81142F8039006EC379 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7F8BC5C142F8039006EC379 /* CoreGraphics.framework */; };
+		B7F8BC89142F8039006EC379 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7F8BC87142F8039006EC379 /* InfoPlist.strings */; };
+		B7F8BC8C142F8039006EC379 /* iNANETests.h in Resources */ = {isa = PBXBuildFile; fileRef = B7F8BC8B142F8039006EC379 /* iNANETests.h */; };
+		B7F8BC8E142F8039006EC379 /* iNANETests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F8BC8D142F8039006EC379 /* iNANETests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7F8BC82142F8039006EC379 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7F8BC4B142F8038006EC379 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7F8BC53142F8038006EC379;
+			remoteInfo = iNANE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B7F8BC54142F8038006EC379 /* iNANE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iNANE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7F8BC58142F8039006EC379 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B7F8BC5A142F8039006EC379 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B7F8BC5C142F8039006EC379 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B7F8BC60142F8039006EC379 /* iNANE-Info.plist */ = {isa = PBXFileReference; path = "iNANE-Info.plist"; sourceTree = "<group>"; };
+		B7F8BC62142F8039006EC379 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B7F8BC64142F8039006EC379 /* iNANE-Prefix.pch */ = {isa = PBXFileReference; path = "iNANE-Prefix.pch"; sourceTree = "<group>"; };
+		B7F8BC65142F8039006EC379 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B7F8BC67142F8039006EC379 /* iNANEAppDelegate.h */ = {isa = PBXFileReference; path = iNANEAppDelegate.h; sourceTree = "<group>"; };
+		B7F8BC68142F8039006EC379 /* iNANEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iNANEAppDelegate.m; sourceTree = "<group>"; };
+		B7F8BC6B142F8039006EC379 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		B7F8BC6D142F8039006EC379 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		B7F8BC6E142F8039006EC379 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		B7F8BC70142F8039006EC379 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		B7F8BC71142F8039006EC379 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		B7F8BC74142F8039006EC379 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		B7F8BC77142F8039006EC379 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		B7F8BC7E142F8039006EC379 /* iNANETests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iNANETests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7F8BC86142F8039006EC379 /* iNANETests-Info.plist */ = {isa = PBXFileReference; path = "iNANETests-Info.plist"; sourceTree = "<group>"; };
+		B7F8BC88142F8039006EC379 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B7F8BC8A142F8039006EC379 /* iNANETests-Prefix.pch */ = {isa = PBXFileReference; path = "iNANETests-Prefix.pch"; sourceTree = "<group>"; };
+		B7F8BC8B142F8039006EC379 /* iNANETests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iNANETests.h; sourceTree = "<group>"; };
+		B7F8BC8D142F8039006EC379 /* iNANETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iNANETests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7F8BC51142F8038006EC379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7F8BC59142F8039006EC379 /* UIKit.framework in Frameworks */,
+				B7F8BC5B142F8039006EC379 /* Foundation.framework in Frameworks */,
+				B7F8BC5D142F8039006EC379 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7F8BC7A142F8039006EC379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7F8BC7F142F8039006EC379 /* UIKit.framework in Frameworks */,
+				B7F8BC80142F8039006EC379 /* Foundation.framework in Frameworks */,
+				B7F8BC81142F8039006EC379 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7F8BC49142F8038006EC379 = {
+			isa = PBXGroup;
+			children = (
+				B7F8BC5E142F8039006EC379 /* iNANE */,
+				B7F8BC84142F8039006EC379 /* iNANETests */,
+				B7F8BC57142F8038006EC379 /* Frameworks */,
+				B7F8BC55142F8038006EC379 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7F8BC55142F8038006EC379 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7F8BC54142F8038006EC379 /* iNANE.app */,
+				B7F8BC7E142F8039006EC379 /* iNANETests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7F8BC57142F8038006EC379 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7F8BC58142F8039006EC379 /* UIKit.framework */,
+				B7F8BC5A142F8039006EC379 /* Foundation.framework */,
+				B7F8BC5C142F8039006EC379 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7F8BC5E142F8039006EC379 /* iNANE */ = {
+			isa = PBXGroup;
+			children = (
+				B7F8BC67142F8039006EC379 /* iNANEAppDelegate.h */,
+				B7F8BC68142F8039006EC379 /* iNANEAppDelegate.m */,
+				B7F8BC6A142F8039006EC379 /* MainWindow.xib */,
+				B7F8BC6D142F8039006EC379 /* FirstViewController.h */,
+				B7F8BC6E142F8039006EC379 /* FirstViewController.m */,
+				B7F8BC70142F8039006EC379 /* SecondViewController.h */,
+				B7F8BC71142F8039006EC379 /* SecondViewController.m */,
+				B7F8BC73142F8039006EC379 /* FirstView.xib */,
+				B7F8BC76142F8039006EC379 /* SecondView.xib */,
+				B7F8BC5F142F8039006EC379 /* Supporting Files */,
+			);
+			path = iNANE;
+			sourceTree = "<group>";
+		};
+		B7F8BC5F142F8039006EC379 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7F8BC60142F8039006EC379 /* iNANE-Info.plist */,
+				B7F8BC61142F8039006EC379 /* InfoPlist.strings */,
+				B7F8BC64142F8039006EC379 /* iNANE-Prefix.pch */,
+				B7F8BC65142F8039006EC379 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7F8BC84142F8039006EC379 /* iNANETests */ = {
+			isa = PBXGroup;
+			children = (
+				B7F8BC8B142F8039006EC379 /* iNANETests.h */,
+				B7F8BC8D142F8039006EC379 /* iNANETests.m */,
+				B7F8BC85142F8039006EC379 /* Supporting Files */,
+			);
+			path = iNANETests;
+			sourceTree = "<group>";
+		};
+		B7F8BC85142F8039006EC379 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7F8BC86142F8039006EC379 /* iNANETests-Info.plist */,
+				B7F8BC87142F8039006EC379 /* InfoPlist.strings */,
+				B7F8BC8A142F8039006EC379 /* iNANETests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7F8BC53142F8038006EC379 /* iNANE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7F8BC91142F8039006EC379 /* Build configuration list for PBXNativeTarget "iNANE" */;
+			buildPhases = (
+				B7F8BC50142F8038006EC379 /* Sources */,
+				B7F8BC51142F8038006EC379 /* Frameworks */,
+				B7F8BC52142F8038006EC379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iNANE;
+			productName = iNANE;
+			productReference = B7F8BC54142F8038006EC379 /* iNANE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7F8BC7D142F8039006EC379 /* iNANETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7F8BC94142F8039006EC379 /* Build configuration list for PBXNativeTarget "iNANETests" */;
+			buildPhases = (
+				B7F8BC79142F8039006EC379 /* Sources */,
+				B7F8BC7A142F8039006EC379 /* Frameworks */,
+				B7F8BC7B142F8039006EC379 /* Resources */,
+				B7F8BC7C142F8039006EC379 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7F8BC83142F8039006EC379 /* PBXTargetDependency */,
+			);
+			name = iNANETests;
+			productName = iNANETests;
+			productReference = B7F8BC7E142F8039006EC379 /* iNANETests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7F8BC4B142F8038006EC379 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = B7F8BC4E142F8038006EC379 /* Build configuration list for PBXProject "iNANE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B7F8BC49142F8038006EC379;
+			productRefGroup = B7F8BC55142F8038006EC379 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7F8BC53142F8038006EC379 /* iNANE */,
+				B7F8BC7D142F8039006EC379 /* iNANETests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7F8BC52142F8038006EC379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7F8BC63142F8039006EC379 /* InfoPlist.strings in Resources */,
+				B7F8BC6C142F8039006EC379 /* MainWindow.xib in Resources */,
+				B7F8BC75142F8039006EC379 /* FirstView.xib in Resources */,
+				B7F8BC78142F8039006EC379 /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7F8BC7B142F8039006EC379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7F8BC89142F8039006EC379 /* InfoPlist.strings in Resources */,
+				B7F8BC8C142F8039006EC379 /* iNANETests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B7F8BC7C142F8039006EC379 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7F8BC50142F8038006EC379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7F8BC66142F8039006EC379 /* main.m in Sources */,
+				B7F8BC69142F8039006EC379 /* iNANEAppDelegate.m in Sources */,
+				B7F8BC6F142F8039006EC379 /* FirstViewController.m in Sources */,
+				B7F8BC72142F8039006EC379 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7F8BC79142F8039006EC379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7F8BC8E142F8039006EC379 /* iNANETests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7F8BC83142F8039006EC379 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7F8BC53142F8038006EC379 /* iNANE */;
+			targetProxy = B7F8BC82142F8039006EC379 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7F8BC61142F8039006EC379 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7F8BC62142F8039006EC379 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B7F8BC6A142F8039006EC379 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7F8BC6B142F8039006EC379 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		B7F8BC73142F8039006EC379 /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7F8BC74142F8039006EC379 /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		B7F8BC76142F8039006EC379 /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7F8BC77142F8039006EC379 /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+		B7F8BC87142F8039006EC379 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7F8BC88142F8039006EC379 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7F8BC8F142F8039006EC379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B7F8BC90142F8039006EC379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		B7F8BC92142F8039006EC379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iNANE/iNANE-Prefix.pch";
+				INFOPLIST_FILE = "iNANE/iNANE-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B7F8BC93142F8039006EC379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iNANE/iNANE-Prefix.pch";
+				INFOPLIST_FILE = "iNANE/iNANE-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B7F8BC95142F8039006EC379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iNANE.app/iNANE";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iNANETests/iNANETests-Prefix.pch";
+				INFOPLIST_FILE = "iNANETests/iNANETests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B7F8BC96142F8039006EC379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iNANE.app/iNANE";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iNANETests/iNANETests-Prefix.pch";
+				INFOPLIST_FILE = "iNANETests/iNANETests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7F8BC4E142F8038006EC379 /* Build configuration list for PBXProject "iNANE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7F8BC8F142F8039006EC379 /* Debug */,
+				B7F8BC90142F8039006EC379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7F8BC91142F8039006EC379 /* Build configuration list for PBXNativeTarget "iNANE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7F8BC92142F8039006EC379 /* Debug */,
+				B7F8BC93142F8039006EC379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B7F8BC94142F8039006EC379 /* Build configuration list for PBXNativeTarget "iNANETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7F8BC95142F8039006EC379 /* Debug */,
+				B7F8BC96142F8039006EC379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7F8BC4B142F8038006EC379 /* Project object */;
+}
