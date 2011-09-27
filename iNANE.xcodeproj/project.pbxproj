@@ -24,6 +24,8 @@
 		B7F8BC89142F8039006EC379 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7F8BC87142F8039006EC379 /* InfoPlist.strings */; };
 		B7F8BC8C142F8039006EC379 /* iNANETests.h in Resources */ = {isa = PBXBuildFile; fileRef = B7F8BC8B142F8039006EC379 /* iNANETests.h */; };
 		B7F8BC8E142F8039006EC379 /* iNANETests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F8BC8D142F8039006EC379 /* iNANETests.m */; };
+		B7F8BCA6142F9333006EC379 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F8BCA4142F9332006EC379 /* ThirdViewController.m */; };
+		B7F8BCA7142F9333006EC379 /* ThirdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7F8BCA5142F9332006EC379 /* ThirdView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,25 +43,28 @@
 		B7F8BC58142F8039006EC379 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B7F8BC5A142F8039006EC379 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B7F8BC5C142F8039006EC379 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B7F8BC60142F8039006EC379 /* iNANE-Info.plist */ = {isa = PBXFileReference; path = "iNANE-Info.plist"; sourceTree = "<group>"; };
+		B7F8BC60142F8039006EC379 /* iNANE-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iNANE-Info.plist"; sourceTree = "<group>"; };
 		B7F8BC62142F8039006EC379 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B7F8BC64142F8039006EC379 /* iNANE-Prefix.pch */ = {isa = PBXFileReference; path = "iNANE-Prefix.pch"; sourceTree = "<group>"; };
+		B7F8BC64142F8039006EC379 /* iNANE-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iNANE-Prefix.pch"; sourceTree = "<group>"; };
 		B7F8BC65142F8039006EC379 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B7F8BC67142F8039006EC379 /* iNANEAppDelegate.h */ = {isa = PBXFileReference; path = iNANEAppDelegate.h; sourceTree = "<group>"; };
+		B7F8BC67142F8039006EC379 /* iNANEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iNANEAppDelegate.h; sourceTree = "<group>"; };
 		B7F8BC68142F8039006EC379 /* iNANEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iNANEAppDelegate.m; sourceTree = "<group>"; };
 		B7F8BC6B142F8039006EC379 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		B7F8BC6D142F8039006EC379 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		B7F8BC6D142F8039006EC379 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		B7F8BC6E142F8039006EC379 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		B7F8BC70142F8039006EC379 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		B7F8BC70142F8039006EC379 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		B7F8BC71142F8039006EC379 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		B7F8BC74142F8039006EC379 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
 		B7F8BC77142F8039006EC379 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
 		B7F8BC7E142F8039006EC379 /* iNANETests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iNANETests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7F8BC86142F8039006EC379 /* iNANETests-Info.plist */ = {isa = PBXFileReference; path = "iNANETests-Info.plist"; sourceTree = "<group>"; };
+		B7F8BC86142F8039006EC379 /* iNANETests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iNANETests-Info.plist"; sourceTree = "<group>"; };
 		B7F8BC88142F8039006EC379 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B7F8BC8A142F8039006EC379 /* iNANETests-Prefix.pch */ = {isa = PBXFileReference; path = "iNANETests-Prefix.pch"; sourceTree = "<group>"; };
+		B7F8BC8A142F8039006EC379 /* iNANETests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iNANETests-Prefix.pch"; sourceTree = "<group>"; };
 		B7F8BC8B142F8039006EC379 /* iNANETests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iNANETests.h; sourceTree = "<group>"; };
 		B7F8BC8D142F8039006EC379 /* iNANETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iNANETests.m; sourceTree = "<group>"; };
+		B7F8BCA3142F9332006EC379 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		B7F8BCA4142F9332006EC379 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		B7F8BCA5142F9332006EC379 /* ThirdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,8 +130,11 @@
 				B7F8BC6E142F8039006EC379 /* FirstViewController.m */,
 				B7F8BC70142F8039006EC379 /* SecondViewController.h */,
 				B7F8BC71142F8039006EC379 /* SecondViewController.m */,
+				B7F8BCA3142F9332006EC379 /* ThirdViewController.h */,
+				B7F8BCA4142F9332006EC379 /* ThirdViewController.m */,
 				B7F8BC73142F8039006EC379 /* FirstView.xib */,
 				B7F8BC76142F8039006EC379 /* SecondView.xib */,
+				B7F8BCA5142F9332006EC379 /* ThirdView.xib */,
 				B7F8BC5F142F8039006EC379 /* Supporting Files */,
 			);
 			path = iNANE;
@@ -234,6 +242,7 @@
 				B7F8BC6C142F8039006EC379 /* MainWindow.xib in Resources */,
 				B7F8BC75142F8039006EC379 /* FirstView.xib in Resources */,
 				B7F8BC78142F8039006EC379 /* SecondView.xib in Resources */,
+				B7F8BCA7142F9333006EC379 /* ThirdView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +282,7 @@
 				B7F8BC69142F8039006EC379 /* iNANEAppDelegate.m in Sources */,
 				B7F8BC6F142F8039006EC379 /* FirstViewController.m in Sources */,
 				B7F8BC72142F8039006EC379 /* SecondViewController.m in Sources */,
+				B7F8BCA6142F9333006EC379 /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
